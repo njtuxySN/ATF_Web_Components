@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_test_web_compone_demo_template.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<h4> Template and shadow appendChild</h4>
+   <div id="nameTag">Bob</div>
+   <template id="nameTagTemplate">
+      <style>
+         .outer {
+         border: 2px solid green;
+         border-radius: 1em;
+         background: grey;
+         font-size: 20pt;
+         width: 12em;
+         height: 7em;
+         text-align: center;
+         }
+         .boilerplate {
+         color: white;
+         font-family: sans-serif;
+         padding: 0.5em;
+         }
+         .name {
+         color: black;
+         background: white;
+         font-family: "Marker Felt", cursive;
+         font-size: 45pt;
+         padding-top: 0.2em;
+         }
+      </style>
+      <div class="outer">
+         <div class="boilerplate">
+            Hi! My name is
+         </div>
+         <div class="name">
+            Bob
+         </div>
+      </div>
+   </template>
+   <script>
+      var shadow = document.querySelector('#nameTag').createShadowRoot();
+      var template = document.querySelector('#nameTagTemplate');
+      var clone = document.importNode(template.content, true);
+      shadow.appendChild(clone);
+   </script>
+</j:jelly>]]></html>
+        <name>demo_template</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 21:30:20</sys_created_on>
+        <sys_id>d2c5cf9a581ac010b236ad9b8f16f7d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>demo_template</sys_name>
+        <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
+        <sys_update_name>sys_ui_page_d2c5cf9a581ac010b236ad9b8f16f7d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 21:30:44</sys_updated_on>
+    </sys_ui_page>
+</record_update>
