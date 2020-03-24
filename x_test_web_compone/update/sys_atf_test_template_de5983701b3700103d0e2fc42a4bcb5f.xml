@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_template">
+    <sys_atf_test_template action="INSERT_OR_UPDATE">
+        <description/>
+        <name>assert text for web components</name>
+        <sys_class_name>sys_atf_test_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-24 19:29:14</sys_created_on>
+        <sys_id>de5983701b3700103d0e2fc42a4bcb5f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>assert text for web components</sys_name>
+        <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
+        <sys_update_name>sys_atf_test_template_de5983701b3700103d0e2fc42a4bcb5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-24 23:27:17</sys_updated_on>
+        <template>5f2e0e535332120028bc29cac2dc34d3,0f4a128297202200abe4bb7503ac4af0,475e0de3d732130089fca2285e610361</template>
+    </sys_atf_test_template>
+</record_update>
