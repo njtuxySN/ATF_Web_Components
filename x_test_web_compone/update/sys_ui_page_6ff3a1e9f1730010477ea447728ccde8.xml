@@ -4,25 +4,25 @@
         <client_script/>
         <description/>
         <direct>false</direct>
-        <endpoint>x_test_web_compone_demo_shadow_root_in_iframe.do</endpoint>
+        <endpoint>x_test_web_compone_demo_shadow_root_in_nested_iframe.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
-	<h1> Iframe with shadow root </h1>
-<iframe id="gsft_main" allowfullscreen="true" main-pane="true" name="gsft_main" title="IT - Eclipse configuration for Android development" aria-label="Main content" src="/x_test_web_compone_demo_shadow_root.do" data-original-title="Main Content" style="border: 5px solid blue; width: 1200px; height: 800px;"></iframe>
+	<h1> Outter iframe </h1>
+<iframe id="gsft_main" allowfullscreen="true" main-pane="true" name="gsft_main" title="IT - Eclipse configuration for Android development" aria-label="Main content" src="/x_test_web_compone_demo_shadow_root_in_iframe.do" data-original-title="Main Content" style="border: 5px solid red; width: 1500px; height: 1000px;"></iframe>
 </j:jelly>]]></html>
-        <name>demo_shadow_root_in_iframe</name>
+        <name>demo_shadow_root_in_nested_iframe</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-03-26 19:52:27</sys_created_on>
-        <sys_id>2ec12569f1730010477ea447728ccd97</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>demo_shadow_root_in_iframe</sys_name>
+        <sys_created_on>2020-03-26 20:02:29</sys_created_on>
+        <sys_id>6ff3a1e9f1730010477ea447728ccde8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>demo_shadow_root_in_nested_iframe</sys_name>
         <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
-        <sys_update_name>sys_ui_page_2ec12569f1730010477ea447728ccd97</sys_update_name>
+        <sys_update_name>sys_ui_page_6ff3a1e9f1730010477ea447728ccde8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-26 20:03:14</sys_updated_on>
+        <sys_updated_on>2020-03-26 20:05:25</sys_updated_on>
     </sys_ui_page>
 </record_update>
