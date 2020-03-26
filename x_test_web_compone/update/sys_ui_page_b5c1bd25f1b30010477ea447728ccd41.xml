@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[(function (){
+var root = container.attachShadow( { mode: "open" } );
+
+var iframe = document.createElement('iframe');
+iframe.src = 'x_test_web_compone_demo_shadow_root.do';
+iframe.style.border = "5px solid AQUA";
+iframe.style.width = "1800px";
+iframe.style.height = "1500px";
+root.appendChild( iframe );
+
+
+})();
+]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_test_web_compone_demo_iframe_inside_shadow_root.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+ <div id="container"></div>
+
+</j:jelly>]]></html>
+        <name>demo_iframe_inside_shadow_root</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-26 21:02:10</sys_created_on>
+        <sys_id>b5c1bd25f1b30010477ea447728ccd41</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>demo_iframe_inside_shadow_root</sys_name>
+        <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
+        <sys_update_name>sys_ui_page_b5c1bd25f1b30010477ea447728ccd41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-26 21:17:55</sys_updated_on>
+    </sys_ui_page>
+</record_update>
