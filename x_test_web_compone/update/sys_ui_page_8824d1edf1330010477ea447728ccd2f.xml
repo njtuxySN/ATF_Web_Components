@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
     <sys_ui_page action="INSERT_OR_UPDATE">
         <category>general</category>
-        <client_script/>
+        <client_script><![CDATA[(function (){
+var root = container.attachShadow( { mode: "open" } );
+
+//Inside element
+var h1 = document.createElement( "h1" );
+h1.setAttribute("style", "background-color: greenyellow;");
+h1.textContent = "Inside Shadow DOM";
+h1.id = "inside";
+root.appendChild( h1 );
+
+//Access inside element
+console.log( "debug from shadow root" + container.shadowRoot.querySelector( "#inside"))})();
+]]></client_script>
         <description/>
         <direct>false</direct>
         <endpoint>x_test_web_compone_demo_shadow_root.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
-   <h4> Change the button text with shadow root</h4>
-   <button id='demo_button'>
-   Hello, world!
-   </button>
-   <script>
-      var host = document.querySelector('#demo_button');
-      var root = host.createShadowRoot();
-      root.textContent = 'こんにちは、影の世界!';
-   </script>
+
+
+ <div id="container"></div>
+    <h1> Regular DOM element</h1>	
 </j:jelly>]]></html>
         <name>demo_shadow_root</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-14 21:13:16</sys_created_on>
-        <sys_id>5ed1c71a581ac010b236ad9b8f16f772</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_created_on>2020-03-26 18:52:44</sys_created_on>
+        <sys_id>8824d1edf1330010477ea447728ccd2f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>demo_shadow_root</sys_name>
         <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
-        <sys_update_name>sys_ui_page_5ed1c71a581ac010b236ad9b8f16f772</sys_update_name>
+        <sys_update_name>sys_ui_page_8824d1edf1330010477ea447728ccd2f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-14 21:30:35</sys_updated_on>
+        <sys_updated_on>2020-03-26 19:28:35</sys_updated_on>
     </sys_ui_page>
 </record_update>

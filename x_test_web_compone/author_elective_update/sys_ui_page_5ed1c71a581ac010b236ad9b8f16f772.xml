@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_test_web_compone_demo_shadow_root.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+   <h4> Change the button text with shadow root</h4>
+   <button id='demo_button'>
+   Hello, world!
+   </button>
+   <script>
+      var host = document.querySelector('#demo_button');
+      var root = host.createShadowRoot();
+      root.textContent = 'こんにちは、影の世界!';
+   </script>
+</j:jelly>]]></html>
+        <name>demo_shadow_root</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 21:13:16</sys_created_on>
+        <sys_id>5ed1c71a581ac010b236ad9b8f16f772</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>demo_shadow_root</sys_name>
+        <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
+        <sys_update_name>sys_ui_page_5ed1c71a581ac010b236ad9b8f16f772</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 21:30:35</sys_updated_on>
+    </sys_ui_page>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</application>
+        <file_path/>
+        <instance_id>a48d8799883300106b98a52ce5dd90a5</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ui_page_5ed1c71a581ac010b236ad9b8f16f772</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;
+    &lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;
+        &lt;category&gt;general&lt;/category&gt;
+        &lt;client_script/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;endpoint&gt;x_test_web_compone_demo_shadow_root.do&lt;/endpoint&gt;
+        &lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+   &lt;h4&gt; Change the button text with shadow root&lt;/h4&gt;
+   &lt;button id='demo_button'&gt;
+   Hello, world!
+   &lt;/button&gt;
+   &lt;script&gt;
+      var host = document.querySelector('#demo_button');
+      var root = host.createShadowRoot();
+      root.textContent = 'こんにちは、影の世界!';
+   &lt;/script&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;
+        &lt;name&gt;demo_shadow_root&lt;/name&gt;
+        &lt;processing_script/&gt;
+        &lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-01-14 21:13:16&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5ed1c71a581ac010b236ad9b8f16f772&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;demo_shadow_root&lt;/sys_name&gt;
+        &lt;sys_package display_value="test_web_components" source="x_test_web_compone"&gt;40c1471a581ac010b236ad9b8f16f7ef&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="test_web_components"&gt;40c1471a581ac010b236ad9b8f16f7ef&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_ui_page_5ed1c71a581ac010b236ad9b8f16f772&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-01-14 21:30:35&lt;/sys_updated_on&gt;
+    &lt;/sys_ui_page&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1285545360</payload_hash>
+        <record_name>demo_shadow_root</record_name>
+        <reverted_from/>
+        <source>901f452df1330010477ea447728ccd41</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-26 18:30:17</sys_created_on>
+        <sys_id>c11f452df1330010477ea447728ccda3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171181bf5f50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-26 18:30:17</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>811f452ddd3300105dceeb3cb43fdea3</update_guid>
+        <update_guid_history>811f452ddd3300105dceeb3cb43fdea3:-1285545360</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-26 19:34:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>22d3bdbec7a247209d5464b6220b65a1</sys_id>
+        <sys_metadata>5ed1c71a581ac010b236ad9b8f16f772</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo_shadow_root</sys_name>
+        <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
+        <sys_scope_delete display_value="">0b46f58a8361415690bee203da5b7c44</sys_scope_delete>
+        <sys_update_name>sys_ui_page_5ed1c71a581ac010b236ad9b8f16f772</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_5ed1c71a581ac010b236ad9b8f16f772">c11f452df1330010477ea447728ccda3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:34:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
