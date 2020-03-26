@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Assert that the text '(parent)' is on the page.
+With a failure timeout of 5 Seconds</description>
+        <display_name>Assert Text on Page (Custom UI)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-26 20:54:35</sys_created_on>
+        <sys_id>391039e1f1b30010477ea447728ccd3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
+        <sys_update_name>sys_atf_step_391039e1f1b30010477ea447728ccd3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-26 20:54:35</sys_updated_on>
+        <table/>
+        <test display_value="demo test assert test on nested shadow dom">799f21e1f1b30010477ea447728ccd0b</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=391039e1f1b30010477ea447728ccd3e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>391039e1f1b30010477ea447728ccd3e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-26 20:54:35</sys_created_on>
+        <sys_id>a21039e1f1b30010477ea447728ccd7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-26 20:54:35</sys_updated_on>
+        <value>(parent)</value>
+        <variable display_value="">1c267c5cd703130089fca2285e61035b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>391039e1f1b30010477ea447728ccd3e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-26 20:54:35</sys_created_on>
+        <sys_id>ee1039e1f1b30010477ea447728ccd7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-26 20:54:35</sys_updated_on>
+        <value>text_on_page</value>
+        <variable display_value="">86e4f05cd703130089fca2285e610307</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=391039e1f1b30010477ea447728ccd3e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>391039e1f1b30010477ea447728ccd3e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-26 20:54:35</sys_created_on>
+        <sys_id>6e1039e1f1b30010477ea447728ccd7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-26 20:54:35</sys_updated_on>
+        <table>var__m_atf_input_variable_475e0de3d732130089fca2285e610361</table>
+        <value>(parent)</value>
+    </sys_element_mapping>
+</record_update>
