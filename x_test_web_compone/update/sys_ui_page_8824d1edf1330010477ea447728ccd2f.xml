@@ -11,6 +11,10 @@ h1.textContent = "Inside Shadow DOM";
 h1.id = "inside";
 root.appendChild( h1 );
 
+var radio_template = document.querySelector('#radioButtonTemplate');
+var radio_clone = document.importNode(radio_template.content, true);
+root.appendChild(radio_clone);
+
 //Access inside element
 console.log( "debug from shadow root" + container.shadowRoot.querySelector( "#inside"))})();
 ]]></client_script>
@@ -19,10 +23,78 @@ console.log( "debug from shadow root" + container.shadowRoot.querySelector( "#in
         <endpoint>x_test_web_compone_demo_shadow_root.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+  <template id="radioButtonTemplate">
+      <style>
+         .outer {
+         border: 2px solid #FF7F50;
+         border-radius: 2px;
+         background: #F0FFFF;
+         font-size: 20pt;
+         width: 20em;
+         height: 10em;
+         text-align: left;
+         padding: 20px;
+         }
+         .boilerplate {
+         color: white;
+         font-family: sans-serif;
+         padding: 0.5em;
+         }
+         .name {
+         color: black;
+         background: white;
+         font-family: "Marker Felt", cursive;
+         font-size: 45pt;
+         padding-top: 0.2em;
+         }
+      </style>
+      <div class="outer">
+         <form>
+            <legend>
+               <h3> 
+                 This radio button is inside template and loaded by shadow root
+               </h3>
+            </legend>
+            <div>
+               <label for="SanDiego">San Diego</label>
+               <input type="radio" id="SanDiego" value="v_San_Diego" name="snowoffice" />
+            </div>
+            <div>
+               <label for="SanFrancisco">San Francisco</label>
+               <input type="radio" id="SanFrancisco" name="snowoffice" value="v_San_Francisco" checked="checked" />            
+            </div>
+            <div>
+               <label for="SantaClara">Santa Clara</label>
+               <input type="radio" id="SantaClara" value="v_Santa_Clara" name="snowoffice" />
+            </div>
+         </form>
+      </div>
+   </template>
+   <div id="container"></div>
+   <h1> Regular DOM element</h1>
 
+<fieldset style="border: 2px solid green; border-radius:2px; background: #f0f8ff; font-size: 20pt; width: 20em; height: 10em; padding: 20px">
+   <form>
+      <legend>
 
- <div id="container"></div>
-    <h1> Regular DOM element</h1>	
+         <h2> 
+            These radio button are within regular dom
+         </h2>
+      </legend>
+      <div>
+         <input type="radio" id="i_mexico" name="destination" value="v_Mexico" checked="checked" />
+         <label for="mexico">Mexico</label>
+      </div>
+      <div>
+         <input type="radio" id="i_japan" value="v_Japan" name="destination" />
+         <label for="japan">Japan</label>
+      </div>
+      <div>
+         <input type="radio" id="i_frence" value="v_Frence" name="destination" />
+         <label for="frence">Frence</label>
+      </div>
+   </form>
+</fieldset>
 </j:jelly>]]></html>
         <name>demo_shadow_root</name>
         <processing_script/>
@@ -30,13 +102,13 @@ console.log( "debug from shadow root" + container.shadowRoot.querySelector( "#in
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-26 18:52:44</sys_created_on>
         <sys_id>8824d1edf1330010477ea447728ccd2f</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>demo_shadow_root</sys_name>
         <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
         <sys_update_name>sys_ui_page_8824d1edf1330010477ea447728ccd2f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-26 19:28:35</sys_updated_on>
+        <sys_updated_on>2020-03-30 21:24:03</sys_updated_on>
     </sys_ui_page>
 </record_update>
