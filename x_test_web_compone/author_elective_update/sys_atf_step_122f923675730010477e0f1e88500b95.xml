@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Assert that the text '' is on the page.</description>
+        <display_name>Assert Text on Page (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 21:32:35</sys_created_on>
+        <sys_id>122f923675730010477e0f1e88500b95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
+        <sys_update_name>sys_atf_step_122f923675730010477e0f1e88500b95</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 21:32:35</sys_updated_on>
+        <table/>
+        <test display_value="demo test radio button on shadow root + template">7ffe123675730010477e0f1e88500b70</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=122f923675730010477e0f1e88500b95"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>122f923675730010477e0f1e88500b95</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 21:32:35</sys_created_on>
+        <sys_id>562f923675730010477e0f1e88500b96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 21:32:35</sys_updated_on>
+        <value/>
+        <variable display_value="">1c267c5cd703130089fca2285e61035b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>122f923675730010477e0f1e88500b95</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 21:32:35</sys_created_on>
+        <sys_id>922f923675730010477e0f1e88500b96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 21:32:35</sys_updated_on>
+        <value>text_on_page</value>
+        <variable display_value="">86e4f05cd703130089fca2285e610307</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</application>
+        <file_path/>
+        <instance_id>75b0b79a953300106b985da886cf3ab4</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_atf_step_122f923675730010477e0f1e88500b95</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Assert that the text '' is on the page.</description><display_name>Assert Text on Page (Custom UI)</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-30 21:32:35</sys_created_on><sys_id>122f923675730010477e0f1e88500b95</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assert Text on Page (Custom UI)</sys_name><sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package><sys_policy/><sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope><sys_update_name>sys_atf_step_122f923675730010477e0f1e88500b95</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-30 21:32:35</sys_updated_on><table/><test display_value="demo test radio button on shadow root + template">7ffe123675730010477e0f1e88500b70</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=122f923675730010477e0f1e88500b95"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>122f923675730010477e0f1e88500b95</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-30 21:32:35</sys_created_on><sys_id>562f923675730010477e0f1e88500b96</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-30 21:32:35</sys_updated_on><value/><variable display_value="">1c267c5cd703130089fca2285e61035b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>122f923675730010477e0f1e88500b95</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-30 21:32:35</sys_created_on><sys_id>922f923675730010477e0f1e88500b96</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-30 21:32:35</sys_updated_on><value>text_on_page</value><variable display_value="">86e4f05cd703130089fca2285e610307</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1752293570</payload_hash>
+        <record_name>Assert Text on Page (Custom UI)</record_name>
+        <reverted_from/>
+        <source>67a502f275330010477e0f1e88500b39</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 21:32:35</sys_created_on>
+        <sys_id>162f923675730010477e0f1e88500b98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1712d5c4b630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 21:32:35</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>5e2f92365f7300100b7d03cca87a9597</update_guid>
+        <update_guid_history>5e2f92365f7300100b7d03cca87a9597:1752293570</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 21:34:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>243f9510ad6f436c8f72d62477ee3d64</sys_id>
+        <sys_metadata>122f923675730010477e0f1e88500b95</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
+        <sys_scope_delete display_value="">0b46f58a8361415690bee203da5b7c44</sys_scope_delete>
+        <sys_update_name>sys_atf_step_122f923675730010477e0f1e88500b95</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_122f923675730010477e0f1e88500b95">162f923675730010477e0f1e88500b98</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 21:34:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
