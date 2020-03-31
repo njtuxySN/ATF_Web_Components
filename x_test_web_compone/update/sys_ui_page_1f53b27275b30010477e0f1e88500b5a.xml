@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_test_web_compone_demo radio button from slot.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+   <template id="radioButtonTemplate">
+      <style>
+         .outer {
+         border: 2px solid #FF7F50;
+         border-radius: 2px;
+         background: #F0FFFF;
+         font-size: 20pt;
+         width: 20em;
+         height: 15em;
+         text-align: left;
+         padding: 20px;
+         }
+         .boilerplate {
+         color: white;
+         font-family: sans-serif;
+         padding: 0.5em;
+         }
+         .name {
+         color: black;
+         background: white;
+         font-family: "Marker Felt", cursive;
+         font-size: 45pt;
+         padding-top: 0.2em;
+         }
+      </style>
+      <div class="outer">
+         <slot name="my-radio-button">
+			 <h2> 
+                Default Radio Button 
+			 </h2>
+            <form>
+               <legend>
+                  <h3> 
+                     This radio button is inside template slot
+                  </h3>
+               </legend>
+               <div>
+                  <label for="SanDiego">San Diego</label>
+                  <input type="radio" id="SanDiego" value="v_San_Diego" name="snowoffice" />
+               </div>
+               <div>
+                  <label for="SanFrancisco">San Francisco</label>
+                  <input type="radio" id="SanFrancisco" name="snowoffice" value="v_San_Francisco" checked="checked" />            
+               </div>
+               <div>
+                  <label for="SantaClara">Santa Clara</label>
+                  <input type="radio" id="SantaClara" value="v_Santa_Clara" name="snowoffice" />
+               </div>
+            </form>
+         </slot>
+      </div>
+   </template>
+   <script>			
+      customElements.define('my-paragraph',
+        class extends HTMLElement {
+      	constructor() {
+      	  super();
+      	  let template = document.getElementById('radioButtonTemplate');
+      	  let templateContent = template.content;
+      	  const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(templateContent.cloneNode(true));
+        }
+      })      
+   </script>
+   <div>
+      <h1> demo1 </h1>
+      <my-paragraph></my-paragraph>
+   </div>
+</j:jelly>]]></html>
+        <name>demo radio button from slot</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 23:13:10</sys_created_on>
+        <sys_id>1f53b27275b30010477e0f1e88500b5a</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>demo radio button from slot</sys_name>
+        <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
+        <sys_update_name>sys_ui_page_1f53b27275b30010477e0f1e88500b5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-31 01:16:54</sys_updated_on>
+    </sys_ui_page>
+</record_update>
