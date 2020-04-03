@@ -23,7 +23,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-24 23:29:02</sys_updated_on>
         <table>sys_ui_page</table>
-        <test display_value="demo assert text on multple slots">f67f7f3c1b7700103d0e2fc42a4bcbab</test>
+        <test display_value="Web Component - assert text on multiple slots">f67f7f3c1b7700103d0e2fc42a4bcbab</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

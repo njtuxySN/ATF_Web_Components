@@ -24,7 +24,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-26 20:06:54</sys_updated_on>
         <table/>
-        <test display_value="demo test assert text on shadow roots inside nested iframes">f0e46de9f1730010477ea447728ccda7</test>
+        <test display_value="Web Component -  assert text on shadow roots inside nested iframes">f0e46de9f1730010477ea447728ccda7</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

@@ -25,7 +25,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-31 01:19:45</sys_updated_on>
         <table/>
-        <test display_value="demo test radio buttom from slot">eb829b3675f30010477e0f1e88500b66</test>
+        <test display_value="Web Component -  radio button from slot">eb829b3675f30010477e0f1e88500b66</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

@@ -12,7 +12,7 @@ See the documentation for Test Design Considerations</description>
         <mugshots_cache_json/>
         <notes/>
         <order>1</order>
-        <snapshot display_value="cef8a1e8e9c1d49ce8e5b4ce9a0be2c0">1403137675f30010477e0f1e88500b49</snapshot>
+        <snapshot/>
         <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -27,7 +27,7 @@ See the documentation for Test Design Considerations</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-31 01:19:06</sys_updated_on>
         <table>sys_ui_page</table>
-        <test display_value="demo test radio buttom from slot">eb829b3675f30010477e0f1e88500b66</test>
+        <test display_value="Web Component -  radio button from slot">eb829b3675f30010477e0f1e88500b66</test>
         <timeout/>
         <warning_message>Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
 Warning: Using an existing record may cause unexpected behavior for this test&#13;

@@ -8,21 +8,21 @@
 3. Assert that text is or is not on a custom UI page
 </description>
         <enable_parameterized_testing>false</enable_parameterized_testing>
-        <name>demo test radio button on shadow root + template</name>
+        <name>Web Component - radio button on shadow root + template</name>
         <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 21:32:11</sys_created_on>
         <sys_id>7ffe123675730010477e0f1e88500b70</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>demo test radio button on shadow root + template</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Web Component - radio button on shadow root + template</sys_name>
         <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
         <sys_update_name>sys_atf_test_7ffe123675730010477e0f1e88500b70</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 21:32:35</sys_updated_on>
+        <sys_updated_on>2020-04-03 19:14:58</sys_updated_on>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=7ffe123675730010477e0f1e88500b70"/>
 </record_update>
