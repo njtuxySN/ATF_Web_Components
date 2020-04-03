@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 19:17:43</sys_created_on>
+        <sys_id>a5a66e4801001010477e9acd4819600c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f67f7f3c1b7700103d0e2fc42a4bcbab</sys_name>
+        <sys_package display_value="test_web_components" source="x_test_web_compone">40c1471a581ac010b236ad9b8f16f7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_web_components">40c1471a581ac010b236ad9b8f16f7ef</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_a5a66e4801001010477e9acd4819600c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 19:17:43</sys_updated_on>
+        <test display_value="Web Component - assert text on multiple slots">f67f7f3c1b7700103d0e2fc42a4bcbab</test>
+        <test_suite display_value="QE Suite - Web Components Tests">1476aa4801001010477e9acd48196069</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>
